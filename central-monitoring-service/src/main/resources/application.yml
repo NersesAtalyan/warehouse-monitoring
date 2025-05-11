@@ -1,0 +1,21 @@
+spring:
+  main:
+    web-application-type: none
+
+  kafka:
+    bootstrap-servers: localhost:9093
+    consumer:
+      group-id: central-monitoring-group
+      auto-offset-reset: latest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    listener:
+      ack-mode: manual
+kafka:
+  topics:
+    - temperature-measurements
+    - humidity-measurements
+
+thresholds:
+  temperature: 35.0
+  humidity: 50.0

@@ -1,0 +1,14 @@
+spring:
+  main:
+    web-application-type: none
+  kafka:
+    bootstrap-servers: localhost:9093
+
+warehouse:
+  id: warehouse-1
+  udp:
+    temperature: 3344
+    humidity: 3355
+  temperature-topic: temperature-measurements
+  humidity-topic: humidity-measurements
+

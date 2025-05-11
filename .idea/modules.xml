@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/central-monitoring-service/warehouse-monitoring.central-monitoring-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/central-monitoring-service/warehouse-monitoring.central-monitoring-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/central-monitoring-service/warehouse-monitoring.central-monitoring-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/central-monitoring-service/warehouse-monitoring.central-monitoring-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/warehouse-monitoring.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/warehouse-monitoring.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/warehouse-service/warehouse-monitoring.warehouse-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/warehouse-service/warehouse-monitoring.warehouse-service.main.iml" />
+    </modules>
+  </component>
+</project>

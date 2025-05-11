@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="warehouse-monitoring.central-monitoring-service.main" />
+        <module name="warehouse-monitoring.central-monitoring-service.test" />
+        <module name="warehouse-monitoring.warehouse-service.test" />
+        <module name="warehouse-monitoring.warehouse-service.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="21">
+      <module name="warehouse-monitoring.main" target="21" />
+      <module name="warehouse-monitoring.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="warehouse-monitoring.central-monitoring-service" options="-parameters" />
+      <module name="warehouse-monitoring.central-monitoring-service.main" options="-parameters" />
+      <module name="warehouse-monitoring.central-monitoring-service.test" options="-parameters" />
+      <module name="warehouse-monitoring.common" options="-parameters" />
+      <module name="warehouse-monitoring.common.main" options="-parameters" />
+      <module name="warehouse-monitoring.common.test" options="-parameters" />
+      <module name="warehouse-monitoring.warehouse-service" options="-parameters" />
+      <module name="warehouse-monitoring.warehouse-service.main" options="-parameters" />
+      <module name="warehouse-monitoring.warehouse-service.test" options="-parameters" />
+    </option>
+  </component>
+</project>
